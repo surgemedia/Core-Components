@@ -1,6 +1,9 @@
-<?php //debug($vars); ?>
+<section class="container-fluid text-center">
+  <h1><?php echo $vars['title'] ?></h1>
+
  <div class="owl-carousel">
 
+<?php //debug($vars); ?>
   <?php 
 
 
@@ -9,8 +12,8 @@
 
 
   $args = array(
+          'post_type' => 'any',
           'post__in'      => $vars['website_items'],
-          'post_type' => 'any'
         );
 
         // The Query
@@ -22,11 +25,12 @@
             $vars['slider_core']->the_post();
               get_component([
               'template' => 'molecule/img-text',
-              'remove_tags' => ['img'],
+              'remove_tags' => [],
                'vars' => [
                     'class' => 'item active text-center',
                     'title' =>   get_the_title(),
                     'content' => get_the_content(),
+                    'img' => get_field('image')
                     ]
                   ]);
           }
@@ -53,3 +57,4 @@
   } 
     ?>
   </div>
+</section>
