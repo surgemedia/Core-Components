@@ -18,7 +18,7 @@
 			  // WP_Query arguments
 			$args = array (
 			  "post_type" => "any",
-			  "post__in" => $vars['coaches']
+			  "post__in" => $vars['website_items']
 			);
 
 			// The Query
@@ -34,7 +34,6 @@
 			        + molecule/card
 			      =============================================*/
 			      get_component([ 'template' => 'molecule/card',
-			              'remove_tags' =>  ['h6'],
 			                      'vars' => [
 			                            "class" => 'col-md-3 card',
 			                            "title" => get_the_title(),
@@ -44,9 +43,9 @@
 			                                'template' => 'atom/link',
 			                                'return_string' => true,
 			                                'vars' => [
-																						"class" => 'btn text-uppercase pull-left',
-																						"text" => "Find out more",
-																						"url" => get_permalink()
+													"class" => 'btn text-uppercase pull-left',
+													"text" => "Read More",
+													"url" => get_permalink()
 																						]
 			                                ])
 			                            ]

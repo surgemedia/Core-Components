@@ -1,6 +1,6 @@
-<section class="container-fluid <?php echo $vars['class'] ?>">
+<section class="container padding-6 <?php echo $vars['class'] ?>">
 <?php
-			
+			//debug($vars);
 
 			/*=============================================
 			= Card (Class,Image,Title,Content)
@@ -28,6 +28,7 @@
 
 			
 ?>
-	
-	<img src="<?php echo $vars['image'] ?>" alt="paragraph" class="col-md-6">
+<div class="col-md-6 text-center">
+		<img class="img-responsive" src="<?php echo $vars['image'] ?>" alt="">
+		</div>
 </section>

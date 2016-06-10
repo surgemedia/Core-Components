@@ -1,4 +1,4 @@
-<article class="<?php echo $vars['class'] ?>">
+<article class="<?php echo $vars['class'] ?> card">
 	<img class="img-responsive" src="<?php echo $vars["image"]?>" alt=""></img>
 	<hgroup>
 		<h6><?php echo $vars["subtitle"]?></h6>

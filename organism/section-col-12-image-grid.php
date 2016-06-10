@@ -2,6 +2,7 @@
     <h2>
         <?php echo $vars['title'] ?>
     </h2>
+    <?php echo apply_filters('the_content',  $vars["content"]); ?>
     <div class="container">
       <ul class="list-inline">
         <?php
@@ -16,7 +17,6 @@
         ?>
       </ul>
     </div>
-    <?php echo apply_filters('the_content',  $vars["content"]); ?>
     <?php get_component([       'template' => 'atom/link',
                                 'vars' => [
                                       "class" => 'btn text-uppercase pull-left',

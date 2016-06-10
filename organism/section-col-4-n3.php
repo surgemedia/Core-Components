@@ -3,37 +3,69 @@
 	/*=====================================
 	=            Get Files            =
 	=====================================*/
-	$element_file_l = $vars['element-l'][0]['acf_fc_layout']; //get file
-	$element_file_r = $vars['element-r'][0]['acf_fc_layout']; //get file
-	unset($vars['element-l'][0]['acf_fc_layout']); // remove file from array leveling only vars
-	unset($vars['element-r'][0]['acf_fc_layout']); // remove file from array leveling only vars
+	$element_file_1 = $vars['element-1'][0]['acf_fc_layout']; //get file
+	$element_file_2 = $vars['element-2'][0]['acf_fc_layout']; //get file
+	$element_file_3 = $vars['element-3'][0]['acf_fc_layout']; //get file
+
+	unset($vars['element-1'][0]['acf_fc_layout']); // remove file from array leveling only vars
+	unset($vars['element-2'][0]['acf_fc_layout']); // remove file from array leveling only vars
+	unset($vars['element-3'][0]['acf_fc_layout']); // remove file from array leveling only vars
 
 	/*=====================================
 	=            Setup Classes            =
 	=====================================*/
-	$vars['element-l'][0]['class'] = 'col-md-6'; //because i know this from the file name
-	$vars['element-r'][0]['class'] = 'col-md-6'; //because i know this from the file name
+	//$vars['element-1'][0]['class'] = 'col-md-4'; //because i know this from the file name
+	//$vars['element-2'][0]['class'] = 'col-md-4'; //because i know this from the file name
+	//$vars['element-3'][0]['class'] = 'col-md-4'; //because i know this from the file name
+
 
 	/*==================================
 	=            Setup Vars            =
 	==================================*/
-	$element_vars_l = $vars['element-l'][0];
-	$element_vars_r = $vars['element-r'][0];
+	$element_vars_1 = $vars['element-1'][0];
+	$element_vars_2 = $vars['element-2'][0];
+	$element_vars_3 = $vars['element-3'][0];
 
-	//Element L
+
+	//Element 1
+	?> 
+	<div class="col-md-4">
+	<?php
 	get_component([
-	 'template' => 'molecule/'.$element_file_l,
-	 'vars' => $element_vars
+	 'template' => 'molecule/'.$element_file_1,
+	 'vars' => $element_vars_1
 			]);
-	//Element R
+			?>
+	</div>
+			
+			<div class="col-md-4">
+	<?php
+	//Element 2
 	get_component([
-	 'template' => 'molecule/'.$element_file_r,
-	 'vars' => $element_vars
+	 'template' => 'molecule/'.$element_file_2,
+	 'vars' => $element_vars_2
 			]);
-	unset($element_file_l);
-	unset($element_file_r);
-	unset($element_vars_l);
-	unset($element_vars_r);
+		?>
+	</div>
+
+		<div class="col-md-4">
+	<?php
+	//Element 3
+	get_component([
+	 'template' => 'molecule/'.$element_file_3,
+	 'vars' => $element_vars_3
+			]);
+	?>
+	</div>
+	<?php
+	unset($element_file_1);
+	unset($element_file_2);
+	unset($element_file_3);
+
+	unset($element_vars_1);
+	unset($element_vars_2);
+	unset($element_vars_3);
+
 
  ?>
 </section>

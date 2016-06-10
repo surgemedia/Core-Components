@@ -7,7 +7,6 @@
 				+ molecule/card
 			=============================================*/
 			get_component([ 'template' => 'molecule/card',
-							'remove_tags' =>  ['img'],
 											'vars' => [
 														"class" => 'col-md-6 card',
 														"title" => $vars["title"],
