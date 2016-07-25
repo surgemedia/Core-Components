@@ -1,0 +1,562 @@
+ [
+    {
+        "key": "group_57954ea22c98f",
+        "title": "Button - Element",
+        "fields": [
+            {
+                "key": "field_575a2d2b6368a",
+                "label": "Button",
+                "name": "button",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": "",
+                "max": "",
+                "layout": "block",
+                "button_label": "Add Button",
+                "sub_fields": [
+                    {
+                        "key": "field_575a2d336368b",
+                        "label": "Text",
+                        "name": "text",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_575a2d3e6368c",
+                        "label": "Link Type",
+                        "name": "link_type",
+                        "type": "radio",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "internal": "Page Link",
+                            "external": "Advance Link  - Introduce an URL -",
+                            "anchor": "Same page - Introduce the section #ID -",
+                            "archive": "Archive link - Media link -"
+                        },
+                        "allow_null": 0,
+                        "other_choice": 0,
+                        "save_other_choice": 0,
+                        "default_value": "",
+                        "layout": "vertical"
+                    },
+                    {
+                        "key": "field_578c25e400541",
+                        "label": "Link",
+                        "name": "internal_link",
+                        "type": "page_link",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_575a2d3e6368c",
+                                    "operator": "==",
+                                    "value": "internal"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+
+                        ],
+                        "taxonomy": [
+
+                        ],
+                        "allow_null": 0,
+                        "multiple": 0
+                    },
+                    {
+                        "key": "field_578c260c00542",
+                        "label": "Link",
+                        "name": "external_link",
+                        "type": "url",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_575a2d3e6368c",
+                                    "operator": "==",
+                                    "value": "external"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": ""
+                    },
+                    {
+                        "key": "field_578c262a00543",
+                        "label": "Link",
+                        "name": "anchor_link",
+                        "type": "text",
+                        "instructions": "",
+                        "required": "",
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_575a2d3e6368c",
+                                    "operator": "==",
+                                    "value": "anchor"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "#",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_578c6e36bbee3",
+                        "label": "Link",
+                        "name": "archive_link",
+                        "type": "file",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_575a2d3e6368c",
+                                    "operator": "==",
+                                    "value": "archive"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "url",
+                        "library": "all",
+                        "min_size": "",
+                        "max_size": "",
+                        "mime_types": ""
+                    },
+                    {
+                        "key": "field_578c6bb822d19",
+                        "label": "Create other window",
+                        "name": "create_other_window",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "default_value": 0
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "special",
+                    "operator": "==",
+                    "value": "nowhere"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_575a26a2487d6",
+        "title": "Card - Element",
+        "fields": [
+            {
+                "key": "field_575a2cb763686",
+                "label": "Card",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 1
+            },
+            {
+                "key": "field_5760fe6182257",
+                "label": "No Field Selected",
+                "name": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_575a2d9263690",
+                            "operator": "==",
+                            "value": "h6"
+                        },
+                        {
+                            "field": "field_575a2d9263690",
+                            "operator": "==",
+                            "value": "h1"
+                        },
+                        {
+                            "field": "field_575a2d9263690",
+                            "operator": "==",
+                            "value": "p"
+                        },
+                        {
+                            "field": "field_575a2d9263690",
+                            "operator": "==",
+                            "value": "Button"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "No field selected for this tab",
+                "new_lines": "",
+                "esc_html": 0
+            },
+            {
+                "key": "field_575a2cf963687",
+                "label": "Subtitle",
+                "name": "subtitle",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_575a2d9263690",
+                            "operator": "!=",
+                            "value": "h6"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_575a2d0d63688",
+                "label": "Title",
+                "name": "title",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_575a2d9263690",
+                            "operator": "!=",
+                            "value": "h1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_575a2d1963689",
+                "label": "Content",
+                "name": "content",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_575a2d9263690",
+                            "operator": "!=",
+                            "value": "p"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1
+            },
+            {
+                "key": "field_57954edcb6b47",
+                "label": "Button",
+                "name": "button",
+                "type": "reusable_field_group_field",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "group_key": "group_57954ea22c98f",
+                "name_prefix": 0,
+                "key_prefix": 1,
+                "label_prefix": 0
+            },
+            {
+                "key": "field_575a2d606368d",
+                "label": "Image",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5760ff240ce63",
+                "label": "No image",
+                "name": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_575a2d9263690",
+                            "operator": "==",
+                            "value": "img"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "The image was hidden. Go to options tab to show it.",
+                "new_lines": "",
+                "esc_html": 0
+            },
+            {
+                "key": "field_575a2d686368e",
+                "label": "Image",
+                "name": "image",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_575a2d9263690",
+                            "operator": "!=",
+                            "value": "img"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_575a2d7a6368f",
+                "label": "Options",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "left",
+                "endpoint": 0
+            },
+            {
+                "key": "field_575a2d9263690",
+                "label": "Remove Elements",
+                "name": "remove_elements",
+                "type": "checkbox",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "h6": "Subtitle",
+                    "h1": "Title",
+                    "p": "Content",
+                    "Button": "Button",
+                    "img": "Image"
+                },
+                "default_value": [
+
+                ],
+                "layout": "vertical",
+                "toggle": 0
+            },
+            {
+                "key": "field_576c78ae19688",
+                "label": "Styles",
+                "name": "class",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "default": "Default",
+                    "style1": "Style 1",
+                    "style2": "Style 2",
+                    "style3": "Style 3",
+                    "style4": "Style 4",
+                    "style5": "Style 5"
+                },
+                "default_value": [
+
+                ],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "disabled": 0,
+                "readonly": 0
+            },
+            {
+                "key": "field_576099e13da64",
+                "label": "",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 1
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "post"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    }
+]
