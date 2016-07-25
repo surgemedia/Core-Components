@@ -18,7 +18,8 @@
 - `related-item`: get a list of related items from the website.
 - `slider`: owl carsoul element
 - `tabs`: boostrap tabs and accordens
-#Oragisms
+
+#Organism
 - `card`: a full width card
 - `comments`: required by wordpress
 - `contact`: contact form section with background image
