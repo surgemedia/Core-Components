@@ -1,4 +1,3 @@
-<section <?php echo $vars['section_id'].' '.$vars['section_classes'].' '.$vars['section_style'] ?>>
   <?php
     $element_file = $vars['element'][0]['acf_fc_layout']; //get file
     unset($vars['element'][0]['acf_fc_layout']); // remove file from array leveling only vars
@@ -60,4 +59,3 @@
       wp_reset_postdata();
           ?>
     <!-- </div> -->
-</section>

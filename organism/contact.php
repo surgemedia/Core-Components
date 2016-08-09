@@ -4,7 +4,6 @@
 	// debug($vars);
 	?>
 
-<section <?php echo $vars['section_id'].' '.$vars['section_classes'].' '.$vars['section_style'] ?>>
 	<div class="col-md-4 col-md-offset-4 text-center">
 		<div class="box">
 		<?php 
@@ -28,4 +27,3 @@
 		 ?>
 		</div>
 	</div>
-</section>
