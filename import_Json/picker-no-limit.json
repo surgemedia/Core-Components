@@ -28,49 +28,24 @@
                         "sub_fields": [
                             {
                                 "key": "field_57689666d9169",
-                                "label": "card",
+                                "label": "Card",
                                 "name": "card",
-                                "type": "reusable_field_group_field",
+                                "type": "clone",
                                 "instructions": "",
-                                "required": "",
+                                "required": 0,
                                 "conditional_logic": 0,
                                 "wrapper": {
                                     "width": "",
                                     "class": "",
                                     "id": ""
                                 },
-                                "group_key": "group_575a26a2487d6",
-                                "name_prefix": 0,
-                                "key_prefix": 1,
-                                "label_prefix": 0
-                            }
-                        ],
-                        "min": "",
-                        "max": ""
-                    },
-                    {
-                        "key": "5768ce08aec3f",
-                        "name": "card-img-side",
-                        "label": "Card with side image",
-                        "display": "block",
-                        "sub_fields": [
-                            {
-                                "key": "field_5768ce08aec40",
-                                "label": "Card with side image",
-                                "name": "card-img-side",
-                                "type": "reusable_field_group_field",
-                                "instructions": "",
-                                "required": 1,
-                                "conditional_logic": 0,
-                                "wrapper": {
-                                    "width": "",
-                                    "class": "",
-                                    "id": ""
-                                },
-                                "group_key": "group_5768cdd1d2a96",
-                                "name_prefix": 0,
-                                "key_prefix": 1,
-                                "label_prefix": 0
+                                "clone": [
+                                    "group_575a26a2487d6"
+                                ],
+                                "display": "seamless",
+                                "layout": "block",
+                                "prefix_label": 0,
+                                "prefix_name": 0
                             }
                         ],
                         "min": "",
@@ -86,7 +61,7 @@
                                 "key": "field_575a3d83da2e3",
                                 "label": "Form",
                                 "name": "form",
-                                "type": "reusable_field_group_field",
+                                "type": "clone",
                                 "instructions": "",
                                 "required": 0,
                                 "conditional_logic": 0,
@@ -95,10 +70,13 @@
                                     "class": "",
                                     "id": ""
                                 },
-                                "group_key": "group_575a30065a430-2",
-                                "name_prefix": 0,
-                                "key_prefix": 1,
-                                "label_prefix": 0
+                                "clone": [
+                                    "group_575a30065a430-2"
+                                ],
+                                "display": "seamless",
+                                "layout": "block",
+                                "prefix_label": 0,
+                                "prefix_name": 0
                             }
                         ],
                         "min": "",
@@ -112,21 +90,24 @@
                         "sub_fields": [
                             {
                                 "key": "field_57689683d916b",
-                                "label": "list",
+                                "label": "List",
                                 "name": "list",
-                                "type": "reusable_field_group_field",
+                                "type": "clone",
                                 "instructions": "",
-                                "required": "",
-                                "conditional_logic": "",
+                                "required": 0,
+                                "conditional_logic": 0,
                                 "wrapper": {
                                     "width": "",
                                     "class": "",
                                     "id": ""
                                 },
-                                "group_key": "group_575a31819691c",
-                                "name_prefix": 0,
-                                "key_prefix": 1,
-                                "label_prefix": 0
+                                "clone": [
+                                    "group_575a31819691c"
+                                ],
+                                "display": "seamless",
+                                "layout": "block",
+                                "prefix_label": 0,
+                                "prefix_name": 0
                             }
                         ],
                         "min": "",
@@ -142,19 +123,22 @@
                                 "key": "field_57689748d916c",
                                 "label": "Slider",
                                 "name": "slider",
-                                "type": "reusable_field_group_field",
+                                "type": "clone",
                                 "instructions": "",
-                                "required": "",
-                                "conditional_logic": "",
+                                "required": 0,
+                                "conditional_logic": 0,
                                 "wrapper": {
                                     "width": "",
                                     "class": "",
                                     "id": ""
                                 },
-                                "group_key": "group_575a369b061d6",
-                                "name_prefix": 0,
-                                "key_prefix": 1,
-                                "label_prefix": 0
+                                "clone": [
+                                    "group_575a369b061d6"
+                                ],
+                                "display": "seamless",
+                                "layout": "block",
+                                "prefix_label": 0,
+                                "prefix_name": 0
                             }
                         ],
                         "min": "",
@@ -170,19 +154,22 @@
                                 "key": "field_57689764d916d",
                                 "label": "Image Grid",
                                 "name": "image_grid",
-                                "type": "reusable_field_group_field",
+                                "type": "clone",
                                 "instructions": "",
-                                "required": "",
-                                "conditional_logic": "",
+                                "required": 0,
+                                "conditional_logic": 0,
                                 "wrapper": {
                                     "width": "",
                                     "class": "",
                                     "id": ""
                                 },
-                                "group_key": "group_575a390f78a8b",
-                                "name_prefix": 1,
-                                "key_prefix": 1,
-                                "label_prefix": 0
+                                "clone": [
+                                    "group_575a390f78a8b"
+                                ],
+                                "display": "seamless",
+                                "layout": "block",
+                                "prefix_label": 0,
+                                "prefix_name": 0
                             }
                         ],
                         "min": "",
@@ -196,21 +183,24 @@
                         "sub_fields": [
                             {
                                 "key": "field_5768977ed916e",
-                                "label": "image",
+                                "label": "Image",
                                 "name": "image",
-                                "type": "reusable_field_group_field",
+                                "type": "clone",
                                 "instructions": "",
-                                "required": "",
-                                "conditional_logic": "",
+                                "required": 0,
+                                "conditional_logic": 0,
                                 "wrapper": {
                                     "width": "",
                                     "class": "",
                                     "id": ""
                                 },
-                                "group_key": "group_575a379a3e69e",
-                                "name_prefix": 0,
-                                "key_prefix": 1,
-                                "label_prefix": 0
+                                "clone": [
+                                    "group_575a379a3e69e"
+                                ],
+                                "display": "seamless",
+                                "layout": "block",
+                                "prefix_label": 0,
+                                "prefix_name": 0
                             }
                         ],
                         "min": "",
@@ -224,21 +214,24 @@
                         "sub_fields": [
                             {
                                 "key": "field_57689792d916f",
-                                "label": "tabs",
+                                "label": "Tabs",
                                 "name": "tabs",
-                                "type": "reusable_field_group_field",
+                                "type": "clone",
                                 "instructions": "",
-                                "required": "",
-                                "conditional_logic": "",
+                                "required": 0,
+                                "conditional_logic": 0,
                                 "wrapper": {
                                     "width": "",
                                     "class": "",
                                     "id": ""
                                 },
-                                "group_key": "group_575a3d16b7a47",
-                                "name_prefix": 0,
-                                "key_prefix": 1,
-                                "label_prefix": 0
+                                "clone": [
+                                    "group_575a3d16b7a47"
+                                ],
+                                "display": "seamless",
+                                "layout": "block",
+                                "prefix_label": 0,
+                                "prefix_name": 0
                             }
                         ],
                         "min": "",
@@ -254,19 +247,22 @@
                                 "key": "field_5784876bde2c1",
                                 "label": "Embed Content",
                                 "name": "oembed",
-                                "type": "reusable_field_group_field",
+                                "type": "clone",
                                 "instructions": "",
-                                "required": 1,
+                                "required": 0,
                                 "conditional_logic": 0,
                                 "wrapper": {
                                     "width": "",
                                     "class": "",
                                     "id": ""
                                 },
-                                "group_key": "group_5784862119b97",
-                                "name_prefix": 0,
-                                "key_prefix": 1,
-                                "label_prefix": 0
+                                "clone": [
+                                    "group_5784862119b97"
+                                ],
+                                "display": "seamless",
+                                "layout": "block",
+                                "prefix_label": 0,
+                                "prefix_name": 0
                             }
                         ],
                         "min": "",
@@ -278,9 +274,9 @@
         "location": [
             [
                 {
-                    "param": "special",
+                    "param": "post_type",
                     "operator": "==",
-                    "value": "nowhere"
+                    "value": "post"
                 }
             ]
         ],
@@ -291,6 +287,7 @@
         "instruction_placement": "label",
         "hide_on_screen": "",
         "active": 1,
-        "description": ""
+        "description": "",
+        "local": "php"
     }
 ]

@@ -6,7 +6,7 @@
             {
                 "key": "field_577c9ab1e29bf",
                 "label": "Reset",
-                "name": "reset",
+                "name": "show_advanced",
                 "type": "column",
                 "instructions": "",
                 "required": 0,
@@ -59,7 +59,8 @@
                 "ajax": 0,
                 "placeholder": "",
                 "disabled": 0,
-                "readonly": 0
+                "readonly": 0,
+                "return_format": "value"
             },
             {
                 "key": "field_5768d60a60f51",
@@ -109,7 +110,8 @@
                 "ajax": 0,
                 "placeholder": "",
                 "disabled": 0,
-                "readonly": 0
+                "readonly": 0,
+                "return_format": "value"
             },
             {
                 "key": "field_57a2bef015306",
@@ -158,7 +160,8 @@
                         "ajax": 0,
                         "placeholder": "",
                         "disabled": 0,
-                        "readonly": 0
+                        "readonly": 0,
+                        "return_format": "value"
                     },
                     {
                         "key": "field_57a2c1098e167",
@@ -190,7 +193,8 @@
                         "ajax": 0,
                         "placeholder": "",
                         "disabled": 0,
-                        "readonly": 0
+                        "readonly": 0,
+                        "return_format": "value"
                     },
                     {
                         "key": "field_57a2c2586cfae",
@@ -241,7 +245,8 @@
                 "ajax": 0,
                 "placeholder": "",
                 "disabled": 0,
-                "readonly": 0
+                "readonly": 0,
+                "return_format": "value"
             },
             {
                 "key": "field_5768dd3c5c1b3",
@@ -271,9 +276,9 @@
         "location": [
             [
                 {
-                    "param": "special",
+                    "param": "post_type",
                     "operator": "==",
-                    "value": "nowhere"
+                    "value": "post"
                 }
             ]
         ],

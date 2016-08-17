@@ -26,19 +26,22 @@
                         "key": "field_57639b9657c14",
                         "label": "Card",
                         "name": "card",
-                        "type": "reusable_field_group_field",
+                        "type": "clone",
                         "instructions": "",
-                        "required": "",
-                        "conditional_logic": "",
+                        "required": 0,
+                        "conditional_logic": 0,
                         "wrapper": {
                             "width": "",
                             "class": "",
                             "id": ""
                         },
-                        "group_key": "group_575a26a2487d6",
-                        "name_prefix": 0,
-                        "key_prefix": 1,
-                        "label_prefix": 0
+                        "clone": [
+                            "group_575a26a2487d6"
+                        ],
+                        "display": "seamless",
+                        "layout": "block",
+                        "prefix_label": 0,
+                        "prefix_name": 0
                     },
                     {
                         "key": "field_5768cfc96b2e2",
@@ -91,14 +94,9 @@
         "location": [
             [
                 {
-                    "param": "post_type",
+                    "param": "special",
                     "operator": "==",
-                    "value": "page"
-                },
-                {
-                    "param": "page_type",
-                    "operator": "==",
-                    "value": "front_page"
+                    "value": "nowhere"
                 }
             ]
         ],
